@@ -1,0 +1,32 @@
+{
+    "name": "bileji/validator",
+    "description": "deep level data validator",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "validator",
+        "deep level"
+    ],
+    "authors": [
+        {
+            "name": "shuc324",
+            "email": "shuc324@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Bileji\\Validator\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
